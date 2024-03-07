@@ -83,13 +83,6 @@ div.item {
 	color: grey;
 	margin-bottom: 1rem;
 	border: 3px solid white;
-	&:hover {
-		border-left: 3px solid grey;
-	}
-
-	&:focus {
-		background: grey;
-	}
 }
 
 div.item img.icon {

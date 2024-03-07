@@ -28,3 +28,10 @@ div.rightSection div.SubRightSection {
 	padding: 16px;
 	gap: 20px;
 }
+
+div.rightSection p.title {
+	font-size: 20px;
+	font-weight: 700;
+	color: #333333;
+	margin: 1.5rem 0 0.8rem;
+}

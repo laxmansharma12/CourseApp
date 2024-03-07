@@ -1,5 +1,5 @@
 import React from "react";
-import "./SubRight.css";
+import "./SubRightTop.css";
 
 const SubRight = () => {
 	return (

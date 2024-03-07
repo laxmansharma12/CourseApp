@@ -1,0 +1,133 @@
+div.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	border: 1px solid #bfbfbf;
+	padding: 0;
+	height: 190px;
+}
+
+div.container div.top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid #bfbfbf;
+	width: 100%;
+	height: 40px;
+}
+
+div.container div.top div.left {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 40%;
+}
+
+div.container div.top div.left div.subleft1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-right: 2px solid #bfbfbf;
+	padding: 0 1rem;
+	width: 60%;
+	height: 30px;
+}
+
+div.container div.top div.left div.subleft2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-left: 2px solid #bfbfbf;
+	border-right: 2px solid #bfbfbf;
+	padding: 0 20px;
+	width: 30%;
+	height: 30px;
+}
+
+div.container div.top div.left div.subleft2 img {
+	height: 16px;
+	width: 16px;
+}
+
+div.container div.top div.right {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 40%;
+}
+
+div.container div.top div.right div.subright1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-left: 2px solid #bfbfbf;
+	border-right: 2px solid #bfbfbf;
+	width: 130px;
+	padding: 0 0.8rem;
+	height: 30px;
+}
+
+div.container div.top div.right div.subright2 {
+	display: flex;
+	justify-content: start;
+	gap: 1rem;
+	align-items: center;
+	width: 170px;
+}
+
+div.container div.top div.right div.subright1 label,
+div.container div.top div.right div.subright2 label {
+	font-size: 14px;
+	font-weight: 500;
+	color: #8c8ca1;
+	margin: 0;
+}
+
+div.container div.bottom {
+	display: flex;
+	justify-content: end;
+	align-items: start;
+	flex-direction: column;
+	border-top: 2px solid #bfbfbf;
+	padding: 1rem;
+	width: 100%;
+}
+
+div.container div.bottom div.bottomLabelContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	font-size: 13px;
+}
+
+div.container div.bottom div.bottomLabelContainer p {
+	font-size: 14px;
+	font-weight: 700;
+	margin: 0;
+	color: #333333;
+}
+
+div.container
+	div.bottom
+	div.bottomLabelContainer
+	div.rightbottomLabelContainer {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+div.container
+	div.bottom
+	div.bottomLabelContainer
+	div.rightbottomLabelContainer
+	p {
+	font-size: 14px;
+	font-weight: 500;
+	color: #18a0fb;
+}
+
+div.container div.bottom select {
+	margin: 0;
+}
