@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div.Main {
+	display: flex;
+	padding: 20px;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+div.rightSection {
+	display: flex;
+	align-items: start;
+	flex-direction: column;
+	width: 100%;
+	gap: 50px;
+}
+
+div.rightSection div.SubRightSection {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	border: 1px solid #e6e6e6;
+	border-radius: 8px;
+	padding: 16px;
+	gap: 20px;
+}

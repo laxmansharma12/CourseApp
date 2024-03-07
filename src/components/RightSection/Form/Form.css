@@ -1,0 +1,58 @@
+div.Wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: start;
+	flex-direction: column;
+	gap: 15px;
+}
+
+div.Wrapper h1 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #000000;
+	padding: 0 0 24px 0;
+}
+
+div.Wrapper div.inputContainer {
+	width: 100%;
+}
+
+div.Wrapper div.inputContainer label {
+	font-size: 14px;
+	font-weight: 700;
+	color: #333333;
+	margin: 0;
+}
+
+div.Wrapper div.inputContainer label span {
+	color: red;
+}
+
+div.Wrapper div.inputContainer input,
+select {
+	border: none;
+	outline: none;
+	background-color: #ecf1f4;
+	border-radius: 8px;
+	padding: 12px;
+	width: 100%;
+	margin: 5px 0 15px 0;
+	color: #8c8ca1;
+}
+
+div.Wrapper div.inputContainer input::placeholder {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22.4px;
+	color: #8c8ca1;
+}
+
+div.Wrapper button {
+	background-color: #3867c1;
+	color: #ffffff;
+	border: none;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 7px;
+	margin-top: 30px;
+}
